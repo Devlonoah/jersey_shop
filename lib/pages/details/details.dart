@@ -140,7 +140,7 @@ class DetailsBody extends StatelessWidget {
                             style: buttonStyle.copyWith(color: deepBlack),
                           ),
                           dropdownColor: plainWhite,
-                          onChanged: (x) => print(x),
+                          onChanged: (x) {},
                           underline: const SizedBox.shrink(),
                           items: sizeList
                               .map((e) => DropdownMenuItem<String>(

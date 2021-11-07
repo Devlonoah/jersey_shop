@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+
+import 'app_routes.dart';
 import 'constants.dart';
 import 'cubit/page_cubit_cubit.dart';
-import 'pages/home/home.dart';
 import 'pages/page_manager/page_manager.dart';
-import 'app_routes.dart';
 
 void main() {
   runApp(const MyApp());
